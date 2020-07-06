@@ -1,0 +1,109 @@
+.titulo {
+    width: 1250px;
+    height: 300px;
+    border: 2px black solid;
+    background-image: url("boca.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(45, 45, 300, 100);
+    
+}
+.menu {
+    width: 700px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+     
+}
+.lista {
+    list-style: none;
+}
+.foto1 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    left: auto;
+    background-image: url("DSC_9112.JPG");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.foto2 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    right: auto;
+    background-image: url("DSC_9169.JPG");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.subtitulo {
+    text-align: center;
+    background-color: darkgoldenrod;
+    width: 1180px;
+    padding: 36px;
+    background-image: url("logo2.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.TARJETAS {
+    width: 1252px;
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b8860b;
+    text-align: center;
+}
+.TARJETAS DIV {
+    width: 250px;
+    margin: 40px;
+}
+.contenedor {
+    width: 1250px;
+    height: 500px;
+    padding-top: 18px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(45, 45, 300, 100);
+    position: relative;
+}
+.concurso{
+    width: 400px;
+    background-image: url("pelota.jpg");
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    
+}
+.formulario {
+    width: 400px;
+    position: absolute;
+    bottom: 170px;
+    right: 50px;
+}
+.cami {
+    border-radius: 100%;
+   
+}
+
+
+
+
+.final{
+    position: absolute;
+    bottom: 50px;
+    left: 550px;
+}
