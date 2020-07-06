@@ -10,17 +10,19 @@
     background-color: rgba(45, 45, 300, 100);
     
 }
-.menu {
+.menu ul {
     width: 700px;
+    display: flex;
     position: absolute;
-    bottom: 10px;
-    left: 50px;
-     
-}
-.lista {
     list-style: none;
+    font-size: 22px;
+    bottom: 10px;
     
-  text-align: center;
+
+}
+.menu ul li{
+    display: flex;
+    margin-right: 20px;
 }
 .foto1 {
     width: 250px;
@@ -73,13 +75,14 @@ p + p {
     width: 1252px;
     height: 650px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #b8860b;
     text-align: center;
+    
 }
 .TARJETAS DIV {
     width: 250px;
-    margin: 40px;
+
 }
 .contenedor {
     width: 1250px;
@@ -87,7 +90,7 @@ p + p {
     padding-top: 18px;
     border: 2px black solid;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgba(45, 45, 300, 100);
     position: relative;
 }
@@ -111,17 +114,12 @@ p + p {
 }
 .cami {
     border-radius: 100%;
-    top: 20px;
-    right: 100px;
-    left: auto; 
+ 
 }
-
-
-
-
-.final{
+.final {
     position: absolute;
     bottom: 50px;
-    left: 550px;
+    left: 450px;
     font-size: 25px;
+    
 }
