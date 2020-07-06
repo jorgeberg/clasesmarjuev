@@ -111,7 +111,9 @@ p + p {
 }
 .cami {
     border-radius: 100%;
-   
+    top: 20px;
+    right: 100px;
+    left: auto; 
 }
 
 
